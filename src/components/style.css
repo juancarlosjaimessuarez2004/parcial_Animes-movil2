@@ -1,0 +1,49 @@
+body {
+  background-color: #2c83d4; /* Fondo azul claro */
+}
+
+.anime-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espaciado entre tarjetas */
+  justify-content: center; /* Centra las tarjetas */
+}
+
+.anime-card {
+  background-color: #72adb6; /* Color de fondo de la tarjeta */
+  border: 1px solid #86bdc4; /* Borde de la tarjeta */
+  border-radius: 8px;
+  padding: 15px;
+  width: 200px; /* Ancho de cada tarjeta */
+  cursor: pointer;
+  transition: transform 0.2s; /* Animación de transformación */
+}
+
+.anime-card:hover {
+  transform: scale(1.05); /* Efecto al pasar el mouse */
+}
+
+.anime-info {
+  margin-top: 10px; /* Espaciado superior para la información */
+}
+
+button {
+  background-color: #185d64; /* Botones en azul */
+  color: rgb(49, 125, 160);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px; /* Espaciado entre botones */
+}
+
+button:disabled {
+  background-color: #63dbeb; /* Botón deshabilitado */
+  color: #004d40;
+  cursor: not-allowed;
+}
+
+h3 {
+  color: #d48383; /* Título en azul oscuro */
+  text-align: center; /* Centra el título */
+}
